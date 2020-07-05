@@ -1,0 +1,62 @@
+.card-styled {
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 135px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bolder;
+    margin: 15px;
+    box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card-styled:hover {
+    transform: scale(1.1);
+}
+
+.card-topRight {
+    border-top-right-radius: 0%;
+}
+
+.card-topLeft {
+    border-top-left-radius: 0%;
+}
+
+.card-bottomRight {
+    border-bottom-right-radius: 0%;
+}
+
+.card-bottomLeft {
+    border-bottom-left-radius: 0%;
+}
+
+.bg-sky_blue {
+    background-color: #53D2DC;
+}
+
+.bg-dark_blue {
+    background-color: #3193DC;
+}
+
+.bg-orange {
+    background-color: #FF7E6A;
+}
+
+.bg-light_orange {
+    background-color: #FFBE5D;
+}
+
+.bg-purple {
+    background-color: #F0A6CA;
+}
+
+.bg-med_blue {
+    background-color: #91A7FF;
+}

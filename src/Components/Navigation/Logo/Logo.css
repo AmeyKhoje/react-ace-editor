@@ -1,0 +1,116 @@
+.logo-main {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    font-family: 'Comfortaa', cursive !important;
+    width: max-content;
+}
+
+.logo-text {
+    font-size: 27px;
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.logo-cont {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: #1C67DA;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.logo-lines {
+    width: 45px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.logo-line1 {
+    width: 50%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #1C67DA;
+    margin-left: auto;
+    /* transition: all 2s linear; */
+    /* margin-bottom: 8px; */
+}
+
+.logo-line2 {
+    width: 100%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #1C67DA;
+    margin-left: auto;
+    /* margin-bottom: 8px; */
+}
+
+.logo-line3 {
+    width: 60%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #1C67DA;
+    margin-left: auto;
+    /* margin-bottom: 8px; */
+}
+
+.logo-line4 {
+    width: 75%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #1C67DA;
+    margin-left: auto;
+}
+
+.animation-on .logo-line1 {
+    animation: logoAnimation 2s infinite;
+}
+
+.animation-on .logo-line2 {
+    animation: logoAnimation 2s infinite;
+    animation-delay: 200ms;
+}
+
+.animation-on .logo-line3 {
+    animation: logoAnimation 2s infinite;
+    animation-delay: 400ms;
+}
+
+.animation-on .logo-line4 {
+    animation: logoAnimation 2s infinite;
+    animation-delay: 100ms;
+}
+
+@keyframes logoAnimation {
+    0% {
+        width: calc(100% - auto);
+    }
+    50% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-main {
+        width: 170px;
+    }
+    .logo-text {
+        font-size: 18px;
+    }
+    .logo-cont {
+        font-size: 36px;
+    }
+    .logo-lines {
+        width: 35px;
+    }
+}
